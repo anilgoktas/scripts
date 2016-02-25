@@ -18,7 +18,7 @@ xcodebuild -exportArchive -archivePath ./CarlaRelease.xcarchive -exportPath ./Ca
 ## Upload it to Hockey App
 # Puck is a command line tool, can be installed inside Hockey App
 
-puck -force=true -submit=auto -notes_path=./distributeNote.txt -notify=true -download=true -open=nothing -app_id="9f20eb637fd34dab9a086802ffd2a253" -api_token="6dc309dc34ee44fbace6aae9424d5d47" ./CarlaRelease.ipa
+puck -force=true -submit=auto -notes_path=./distributeNote.txt -notify=true -download=true -open=nothing -app_id="hockeyAppID" -api_token="hockeyAPIToken" ./CarlaRelease.ipa
 
 ## Remove builds
 
